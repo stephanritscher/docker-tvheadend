@@ -1,0 +1,1 @@
+podman build -f Dockerfile.armhf --build-arg BUILD_DATE=Y.m.d --build-arg VERSION=1.0 --build-arg TVHEADEND_COMMIT=21911b5e37a20b6f2a10ef48a93ccf7bf2dd179c -t ghcr.io/linuxserver/tvheadend:arm32v7-3.20 "${@}"
