@@ -18,4 +18,4 @@ fi
 
 # permissions
 echo "Setting permissions"
-lsiown -R abc:abc /config
+lsiown -R root:root /config
